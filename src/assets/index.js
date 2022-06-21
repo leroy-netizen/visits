@@ -1,0 +1,1 @@
+alert("sijakula siku tatu");
