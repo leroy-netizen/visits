@@ -1,4 +1,7 @@
-// alert("sijakula siku tatu");
+// alert("sijakula siku tatu")
+document.addEventListener("DOMContentLoaded", () => {
+  fetchData();
+});
 // Fetch data function
 
 const fetchData = async () => {
@@ -13,4 +16,3 @@ const fetchData = async () => {
 //   .then((res) => res.json())
 //   .then((data) => console.log(data));
 // console.log(data);
-fetchData();
