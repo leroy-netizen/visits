@@ -88,10 +88,9 @@ function fetchData() {
                                       </div>
                                   </article>
                               </li> 
-                 </ul> 
+                 </ul>  
 
         `;
-
         prodPage.appendChild(productContainer);
       });
     });
