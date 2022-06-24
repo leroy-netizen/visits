@@ -16,7 +16,7 @@ function fetchData() {
       console.log(products);
       products.forEach((product) => {
         const {
-          description,
+          about,
           product_title,
           product_description,
           cover_image_url,
@@ -39,7 +39,7 @@ function fetchData() {
                                       </figure>
                                       <div class="product__details">
                                           <h1 class="product__title" id="title" itemprop="brand">${product.title}</h1>
-                                          <p class="product__subtitle" itemprop="description">${product.description}</p>
+                                          <p class="product__subtitle" itemprop="description">${product.about}</p>
                                           <div class="product__price" itemscope itemtype="http://schema.org/Offer">
                                             <span class="product__price--discounted" itemprop="price">${product.original_retail_price.formatted_iso_value}</span>
                                           </div>
@@ -60,7 +60,7 @@ function fetchData() {
                                       </figure>
                                       <div class="product__details">
                                           <h1 class="product__title" id="title" itemprop="brand">${product.title}</h1>
-                                          <p class="product__subtitle" itemprop="description">${product.description}</p>
+                                          <p class="product__subtitle" itemprop="description">${product.about}</p>
                                           <div class="product__price" itemscope itemtype="http://schema.org/Offer">
                                             <span class="product__price--discounted" itemprop="price">${product.original_retail_price.formatted_iso_value}</span>
                                           </div>
@@ -81,7 +81,7 @@ function fetchData() {
                                       </figure>
                                       <div class="product__details">
                                           <h1 class="product__title" id="title" itemprop="brand">${product.title}</h1>
-                                          <p class="product__subtitle" itemprop="description">${product.description}</p>
+                                          <p class="product__subtitle" itemprop="description">${product.about}</p>
                                           <div class="product__price" itemscope itemtype="http://schema.org/Offer">
                                             <span class="product__price--discounted" itemprop="price">${product.original_retail_price.formatted_iso_value}</span>
                                           </div>
