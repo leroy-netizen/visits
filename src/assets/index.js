@@ -10,9 +10,7 @@ const prodPage = document.getElementById("prodPage");
 
 // =========================
 function fetchData() {
-  fetch(
-    "https://api.musement.com/api/v3/venues/164/activities?limit=6&offset=0"
-  )
+  fetch("https://api.musement.com/api/v3/venues/164/activities")
     .then((res) => res.json())
     .then((products) => {
       console.log(products);
