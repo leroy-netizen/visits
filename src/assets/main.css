@@ -88,13 +88,18 @@ footer {
 }
 
 main {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    width: 70%;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-between;
     flex: 1 0 auto;
-    margin: 30px 0 20px;
+    margin: auto; */
+    /* margin: 30px 0 20px; */
 }
 
 .container {
+    display: flex;
     width: 100%;
     max-width: 1240px;
     padding: 0 40px;
@@ -231,6 +236,14 @@ main {
    Product List
    ========================================================================== */
 
+   /* #prodPage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+     border: 1px solid red; 
+    }  */
+
 .product-list {
     display: flex;
     flex: 0 1 auto;
@@ -353,7 +366,7 @@ main {
 /* ==========================================================================
    Pagination
    ========================================================================== */
-
+/* 
 .pagination {
     height: 45px;
     margin: 30px auto;
@@ -392,7 +405,7 @@ main {
 .pagination__link .icon {
     width: 8px;
     fill: #444A59;
-}
+} */
 
 /* ==========================================================================
    Footer
