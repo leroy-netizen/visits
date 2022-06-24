@@ -49,7 +49,6 @@ function fetchData() {
                                   </article>
                               </li> 
 
-                              
                                <li class="product-list__item">
                                   <article class="product" itemscope itemtype="http://schema.org/Product">
                                       <figure class="product__image-wrapper">
