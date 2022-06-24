@@ -13,7 +13,7 @@ function fetchData() {
   fetch("https://api.musement.com/api/v3/venues/164/activities")
     .then((res) => res.json())
     .then((products) => {
-      console.log(products);
+      // console.log(products);
       products.forEach((product) => {
         const {
           about,
