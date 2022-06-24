@@ -82,6 +82,7 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
+    text-align: center;
     
     text-transform: uppercase;
     background-color: #ffffff;
@@ -414,4 +415,5 @@ main {
 .footer__sidenote {
     font-family: 'Lato-Bold', sans-serif;
     letter-spacing: 1.37px;
+    
 }
